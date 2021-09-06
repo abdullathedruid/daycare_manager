@@ -22,11 +22,11 @@ Feel free to deploy to re-deploy the contract with a different fee if the price 
   - to: `0x0D4C98901563ca730332e841EDBCB801fe9F2551`
   - tokenId: the token ID for your summoner
 
-2. Calculate the cost to enter day care. This will be 0.1 FTM per day. For example, for 7 days, this will be 0.7 FTM. Multiply this number by 10^18 to get the cost in wei or use a [calculator](https://eth-converter.com/)
+2. Calculate the cost to enter day care. This will be 0.1 FTM per day. For example, for 7 days, this will be 0.7 FTM.
 
 3. Go to [daycare manager](https://ftmscan.com/address/0xf1bf34e46ecf465591b7a7fa9635e4c583174fa3#writeContract) and register your summoner for day care
  Under `registerDaycare` enter:
-  - payableAmount: Enter the calculated fee here
+  - payableAmount: Enter the calculated fee here ie 0.7
   - summonerId: Array of tokenIDs. For a single token, enclose this in square brackets eg. [110775]
   - days: Array of days. With the above example, you will need to enter [7]
 

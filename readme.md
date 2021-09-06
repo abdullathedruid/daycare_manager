@@ -9,3 +9,9 @@ Advanced coders will be able to generate scripts/bots that can adventure on beha
 Hopefully the economic incentives add up.
 
 Feel free to deploy to re-deploy the contract with a different fee if the price of FTM varies significantly.
+
+
+Notes:
+ - You cannot unregister once you have registered -> I would recommend only registering small number of days at a time
+ - This isn't audited.
+ - `adventureTime.adventureTime(_summonerIds)` will revert if ANY of the summoner ids is invalid.

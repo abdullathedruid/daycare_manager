@@ -1,3 +1,7 @@
+# Daycare Manager
+
+Deployed at [0xf1bf34E46ECf465591B7a7fA9635E4C583174fa3](https://ftmscan.com/address/0xf1bf34e46ecf465591b7a7fa9635e4c583174fa3)
+
 Framework to allow users to create permissionless bots to adventure time
 You can register your summoners with `registerDaycare()` and will pay a fee of 0.1 FTM per summoner per day.
 

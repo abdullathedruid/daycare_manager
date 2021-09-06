@@ -1,0 +1,6 @@
+networks:
+  default: ftm-main-fork
+
+dotenv: .env
+
+autofetch_sources: true
